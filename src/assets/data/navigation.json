@@ -1,0 +1,43 @@
+{
+  "links": [
+    {
+      "title": "Login",
+      "icon": "fa fa-cog",
+      "route": "/pages/monitor"
+    },
+    {
+      "title": "Manage",
+      "icon": "fa fa-cog",
+      "route": "/pages/manage",
+      "links": [
+        {
+          "title": "A",
+          "icon": "fa fa-cog",
+          "route": "/pages/manage/a"
+        },
+        {
+          "title": "B",
+          "icon": "fa fa-cog",
+          "route": "/pages/manage/a",
+          "links": [
+            {
+              "title": "B",
+              "icon": "fa fa-cog",
+              "route": "/pages/manage/d"
+            }
+          ]
+        },
+        {
+          "title": "B",
+          "icon": "fa fa-cog",
+          "route": "/pages/manage/a"
+        }
+      ]
+    },
+    {
+      "title": "Users",
+      "icon": "fa fa-cog",
+      "route": "/pages/users"
+    }
+  ]
+}
